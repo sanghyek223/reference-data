@@ -72,6 +72,11 @@ class CreateUsersTable extends Migration
 
 ~~~
 #
+#### - 스케쥴러 실행
+~~~bash
+$ php artisan schedule:work
+~~~
+#
 #### - 마이그레이션 롤백
 ~~~bash
 $ php artisan migrate:rollback
