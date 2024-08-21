@@ -82,6 +82,11 @@ $ php artisan schedule:work
 $ php artisan migrate:rollback
 ~~~
 #
+#### - 마이그레이션 롤백 후 재실행 seeder 까지
+~~~bash
+$ php artisan migrate:refresh --seed
+~~~
+#
 #### - 컨트롤러 & 마이그레이션 생성
 ~~~bash
 $ php artisan make:model {파일명} -c -m
